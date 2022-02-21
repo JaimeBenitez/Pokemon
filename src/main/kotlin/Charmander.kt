@@ -2,6 +2,10 @@ class Charmander(private var ListaAtaques:ArrayList<Ataque>,psActual:Int, nombre
     :Pokemon(psActual,nombre,atq,def,vel,agi,exp,tipo,psMax),Fuego {
 
     fun getAtaques():ArrayList<Ataque>{return ListaAtaques}
+    fun aniadirAtaque(ataque:Ataque):ArrayList<Ataque>{
+        ListaAtaques.add(ataque)
+        return ListaAtaques
+    }
 
 
 

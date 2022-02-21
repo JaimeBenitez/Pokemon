@@ -2,6 +2,9 @@ fun main(args: Array<String>) {
     var pokemon1 = Charmander(arrayListOf(),100,"Paco",20,20, 15, 20,30,TipoPokemon.FUEGO)
     println(pokemon1)
     var charmanderA1 = Ataque("Llamarada",35,80,25)
+    pokemon1.aniadirAtaque(charmanderA1)
+    println(pokemon1)
+
 
 }
 // Mecanica de acierto en ataques
